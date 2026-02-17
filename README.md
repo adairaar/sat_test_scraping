@@ -78,7 +78,7 @@ The toolkit produces datasets with the following columns:
 
 | Column | Type | Description |
 |--------|------|-------------|
-| `question_id` | string | Composite primary key (format: `TestName_Section_M#_Q#`) |
+| `key` | string | Composite primary key (format: `TestName_Section_M#_Q#`) |
 | `test_name` | string | Name of the practice test |
 | `section` | string | "Reading and Writing" or "Math" |
 | `module` | integer | Module number (1 or 2) |
